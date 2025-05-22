@@ -138,7 +138,8 @@ minikube service meal-planner-service
 - Kubernetes (Minikube)  
 - Conda  
 - pytest  
-- Groq API  
+- Groq API
+- REST APIs 
 
 ---
 ## 🎥 Demo
