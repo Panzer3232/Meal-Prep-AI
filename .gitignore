@@ -1,0 +1,49 @@
+# Ignore .env file with API keys
+.env
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & Debugging
+logs/
+*.log
+
+# VS Code Settings
+.vscode/
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
+
+# Pip/Install logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask cache
+.cache/
+
+# Model/Data files
+*.h5
+*.pkl
+*.json
+*.csv
+
+# Docker-related
+*.tar
+*.img
+
+# Kubernetes manifests if auto-generated
+*.yaml.backup
+*.yaml.tmp
+
+# Test coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Environment exports
+environment.yml
+

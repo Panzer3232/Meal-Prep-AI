@@ -1,0 +1,11 @@
+Flask==3.1.1
+openai==1.80.0
+autogen==0.9.1.post0
+autogen-core==0.5.7
+autogen-ext==0.5.7
+groq==0.25.0
+numpy==2.2.6
+pandas==2.2.3
+python-dotenv==1.1.0
+requests==2.32.3
+tqdm==4.67.1 

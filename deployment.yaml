@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: meal-planner-deployment
+spec:
+  replicas: 1   #pods number 
+  selector:
+    matchLabels:
+      app: meal-planner
+  template:
+    metadata:
+      labels:
+        app: meal-planner
+    spec:
+      containers:
+      - name: meal-planner
+        image: meal-planner:latest
+        imagePullPolicy: Never     # Use local image created by name meal
+        ports:
+        - containerPort: 5000
+        env:
+        - name: FLASK_ENV
+          value: "development"
+        - name: GROQ_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: groq-secret
+              key: GROQ_API_KEY
