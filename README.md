@@ -141,3 +141,6 @@ minikube service meal-planner-service
 - Groq API  
 
 ---
+## 🎥 Demo
+
+[![Watch the demo](https://img.youtube.com/vi/8T1m_LQMcfg/0.jpg)](https://www.youtube.com/watch?v=8T1m_LQMcfg)
