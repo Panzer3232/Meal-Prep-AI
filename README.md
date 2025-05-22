@@ -29,7 +29,7 @@ Meal-Prep-AI/
 ├── agents/                # Modular AI agents
 ├── tools/                 # Helper logic
 ├── templates/             # Flask HTML views
-├── static/                # CSS for Images and Images for readme.md file
+├── static/                # CSS for application and Images for readme.md file
 ├── tests/                 # Unit test for Python
 ├── requirements.txt       # Python dependencies
 ├── Dockerfile             # Docker build for app
