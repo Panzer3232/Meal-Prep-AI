@@ -4,6 +4,8 @@
 
 This is an AI-powered meal planning system built with Flask. It uses multiple intelligent agents to generate meal suggestions based on dietary preferences, calorie goals, and budget. The app supports scalable deployment via Docker and Kubernetes (Minikube), and integrates with the **Groq API** for large language model based meal generation. 
 
+There are four meal agents ( Breakfast, Lunch, Snacks, Dinner) working collaboratively to ensure a comprehensive meal plan that meets the user's dietary needs and preferences.
+
 ---
 
 ## 🚀 Features
